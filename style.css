@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#0078d7;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.hero{
+    text-align:center;
+    padding:50px;
+    background:white;
+}
+
+.hero h2{
+    color:#0078d7;
+}
+
+.booking-form{
+    width:60%;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.booking-form input,
+.booking-form button{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+}
+
+button{
+    background:#0078d7;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#005fa3;
+}
+
+#result{
+    width:60%;
+    margin:auto;
+}
+
+.bus-card{
+    background:white;
+    margin:15px 0;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#222;
+    color:white;
+    margin-top:30px;
+}
